@@ -1,0 +1,444 @@
+<div id="navbar"></div>
+<script src="navbar.js"></script>
+<link rel="stylesheet" href="sports.css">
+<link rel="stylesheet" href="nav.css">
+
+<body>
+    <div id="root">
+        
+        <div id="sport-section1">
+            <div class="box" id="box-1">
+                <a href="#sport-section2">
+                    <div class="name"><h2>Hiking Shoes</h2></div>
+                    <img src="/gallery/images/bg-img/bg-20.webp" alt="" />
+                </a>
+            </div>
+            <div class="box" id="box-2">
+                <a href="#sport-section2">
+                    <div class="name"><h2>Running Shoes</h2></div>
+                    <img src="/gallery/images/bg-img/bg-21.webp" alt="" />
+                </a>
+            </div>
+            <div class="box" id="box-3">
+                <a href="#sport-section2">
+                    <div class="name"><h2>Soccer Shoes</h2></div>
+                    <img src="/gallery/images/bg-img/bg-22.webp" alt="" />
+                </a>
+            </div>
+            <div class="box" id="box-4">
+                <a href="#sport-section2">
+                    <div class="name"><h2>Tennis Shoes</h2></div>
+                    <img src="/gallery/images/bg-img/bg-23.webp" alt="" />
+                </a>
+            </div>
+        </div>
+        <div id="sport-section2">
+            <button id="filter" style="display: inline;">Filter<img src="/gallery/images/logo/down.svg" alt="" /></button>
+            <div class="sidebar sidebarGo">
+                <img class="cross cross-ani" src="/gallery/images/logo/cross.svg" alt="" width="17px" />
+                <div class="info">
+                    <div class="range-container">
+                        <h3>Price</h3>
+                        <div class="price-range">
+                            <span class="range-min">₹ 0</span><span>₹&nbsp;<input type="number" id="range-max" value="10000" /></span>
+                        </div>
+                        <input type="range" id="rangebar" min="0" max="10000" value="10000" />
+                    </div>
+                    <div class="color-container">
+                        <h3>Color</h3>
+                        <div class="color-grid">
+                            <li class="color" id="color-white" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: white;"></li>
+                            <li class="color" id="color-beige" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: beige;"></li>
+                            <li class="color" id="color-yellow" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: yellow;"></li>
+                            <li class="color" id="color-orange" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: orange;"></li>
+                            <li class="color" id="color-black" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: black;"></li>
+                            <li class="color" id="color-brown" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: brown;"></li>
+                            <li class="color" id="color-pink" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: pink;"></li>
+                            <li class="color" id="color-blue" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: blue;"></li>
+                            <li class="color" id="color-green" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: green;"></li>
+                            <li class="color" id="color-purple" style="border-color: transparent; border-width: 2px; border-style: solid; background-color: purple;"></li>
+                        </div>
+                    </div>
+                    <div class="size-container">
+                        <h3>Size</h3>
+                        <div class="size">
+                            <input type="checkbox" name="6" class="checkbox" />&nbsp;6<br />
+                            <input type="checkbox" name="7" class="checkbox" />&nbsp;7<br />
+                            <input type="checkbox" name="8" class="checkbox" />&nbsp;8<br />
+                            <input type="checkbox" name="9" class="checkbox" />&nbsp;9<br />
+                            <input type="checkbox" name="10" class="checkbox" />&nbsp;10
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading">
+                <h2>Sport Shoes</h2>
+                <div class="line"></div>
+            </div>
+            <div class="shoe-container" id="shoe-container">
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item1">
+                        <div class="shoe-item" id="sports-item1">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/1-a.png" alt="Zenith Sprint" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Zenith Sprint</h3>
+                    <p>₹5999</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item2">
+                        <div class="shoe-item" id="sports-item2">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/2-a.png" alt="Nova Stride" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Nova Stride</h3>
+                    <p>₹4600</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item3">
+                        <div class="shoe-item" id="sports-item3">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/3-a.png" alt="Apex Rush" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Apex Rush</h3>
+                    <p>₹8599</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item4">
+                        <div class="shoe-item" id="sports-item4">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/4-a.png" alt="Momentum" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Momentum</h3>
+                    <p>₹6500</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item5">
+                        <div class="shoe-item" id="sports-item5">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/5-a.png" alt="Zen Sole" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Zen Sole</h3>
+                    <p>₹3999</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item6">
+                        <div class="shoe-item" id="sports-item6">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/6-a.png" alt="Velocity Vibe" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Velocity Vibe</h3>
+                    <p>₹4600</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item7">
+                        <div class="shoe-item" id="sports-item7">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/7-a.png" alt="Nimbus Dash" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Nimbus Dash</h3>
+                    <p>₹2300</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item8">
+                        <div class="shoe-item" id="sports-item8">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/8-a.png" alt="Summit Sprint" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Summit Sprint</h3>
+                    <p>₹7599</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item9">
+                        <div class="shoe-item" id="sports-item9">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/9-a.png" alt="Radiant Run" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Radiant Run</h3>
+                    <p>₹6999</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item10">
+                        <div class="shoe-item" id="sports-item10">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/10-a.png" alt="Eclipse Edge" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Eclipse Edge</h3>
+                    <p>₹1599</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item11">
+                        <div class="shoe-item" id="sports-item11">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/11-a.png" alt="Zenith Zest" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Zenith Zest</h3>
+                    <p>₹8999</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item12">
+                        <div class="shoe-item" id="sports-item12">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/12-a.png" alt="Apex Aura" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Apex Aura</h3>
+                    <p>₹5999</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item13">
+                        <div class="shoe-item" id="sports-item13">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/13-a.png" alt="Velocity Vortex" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Velocity Vortex</h3>
+                    <p>₹4599</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item14">
+                        <div class="shoe-item" id="sports-item14">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/14-a.png" alt="Nova Nimble" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Nova Nimble</h3>
+                    <p>₹8900</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item15">
+                        <div class="shoe-item" id="sports-item15">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/15-a.png" alt="Summit Surge" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Summit Surge</h3>
+                    <p>₹999</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item16">
+                        <div class="shoe-item" id="sports-item16">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/16-a.png" alt="Stride Swift" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Stride Swift</h3>
+                    <p>₹5699</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item17">
+                        <div class="shoe-item" id="sports-item17">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/17-a.png" alt="Turbo Thrust" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Turbo Thrust</h3>
+                    <p>₹9999</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item18">
+                        <div class="shoe-item" id="sports-item18">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/18-a.png" alt="Dynamo Dash" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Dynamo Dash</h3>
+                    <p>₹8900</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item19">
+                        <div class="shoe-item" id="sports-item19">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/19-a.png" alt="Aurora Athlete" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Aurora Athlete</h3>
+                    <p>₹6900</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item20">
+                        <div class="shoe-item" id="sports-item20">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/20-a.png" alt="Zenith Zephyr" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Zenith Zephyr</h3>
+                    <p>₹3200</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item21">
+                        <div class="shoe-item" id="sports-item21">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/21-a.png" alt="Velocity Vigor" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Velocity Vigor</h3>
+                    <p>₹2500</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item22">
+                        <div class="shoe-item" id="sports-item22">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/22-a.png" alt="Apex Ascent" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Apex Ascent</h3>
+                    <p>₹4500</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item23">
+                        <div class="shoe-item" id="sports-item23">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/23-a.png" alt="Summit Strive" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Summit Strive</h3>
+                    <p>₹6900</p>
+                </div>
+                <div class="shoe-group">
+                    <a href="/shoe/sports-item24">
+                        <div class="shoe-item" id="sports-item24">
+                            <img class="shoe-item-img" src="/gallery/images/shoes-img/sports/24-a.png" alt="Dynamo Dart" />
+                            <!-- <div class="social-icons">
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/menu.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/search.svg" alt="" /></a>
+                                <a href="#" class="icon"><img class="icon" src="/gallery/images/social-icon-img/like.svg" alt="" /></a>
+                            </div> -->
+                        </div>
+                    </a>
+                    <h3>Dynamo Dart</h3>
+                    <p>₹8900</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <form>
+                <div class="first-col colm">
+                    <h3>Shoe Savvy</h3>
+                    <input type="email" placeholder="Enter Your Email" required="" value="" /><button class="homebtn btn-sm" type="submit">Subscribe</button>
+                </div>
+            </form>
+            <div class="Toastify"></div>
+            <div class="second-col colm">
+                <h3>Contact Us</h3>
+                <p>Phone: +917351123793</p>
+                <p>Email: digambarsingh.1477@gmail.com</p>
+                <p>Address: Lovely Professional University Punjab, 144411</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/digambarsingh1477/" target="blank" class="icon"><img src="/images/social-icon-img/linkedin.svg" alt="" /></a>
+                    <a href="#" class="icon" id="fb"><img src="/images/social-icon-img/facebook-f.svg" alt="" /></a><a href="#" class="icon"><img src="/images/social-icon-img/instagram.svg" alt="" /></a>
+                    <a href="#" class="icon"><img src="/images/social-icon-img/google-plus-g.svg" alt="" /></a><a href="https://github.com/digambar78" target="blank" class="icon"><img src="/images/social-icon-img/github.svg" alt="" /></a>
+                </div>
+            </div>
+            <div class="third-col colm">
+                <h3>Recent News</h3>
+                <p>About Us</p>
+                <p>Services</p>
+                <p>Get In Touch</p>
+            </div>
+        </footer>
+    </div>
+</body>
